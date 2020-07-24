@@ -6,7 +6,7 @@
 | Système d'exploitation  | Version | Support            |
 | ----------------- | ------- | -------------------- |
 | Ubuntu            | 14.04   | :red_circle:         |
-|                   | 16.04   | :red_circle:   |
+|                   | 16.04   | :white_check_mark:   |
 |                   | 18.04   | :red_circle:   |
 |                   | 20.04   | :red_circle:        |
 | Debian            | 8       | :red_circle:         |
