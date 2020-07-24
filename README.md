@@ -11,7 +11,7 @@
 |                   | 20.04   | :red_circle:        |
 | Debian            | 8       | :red_circle:         |
 |                   | 9       | :white_check_mark:   |
-|                   | 10      | :red_circle:   |
+|                   | 10      | :white_check_mark:   |
 | CentOS            | 6       | :red_circle:         |
 |                   | 7       | :red_circle:    |
 |                   | 8       | :red_circle:    |
