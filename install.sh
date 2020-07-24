@@ -83,15 +83,7 @@ echo "Création de l'utilisateur admin de pufferpanel"
 echo "============="
 sleep 2
 
-echo "=============================="
-read -p 'Entrez le nom d utilisateur  : ' user
-echo "=============================="
-read -p 'Entrez le mot de passe de cette utilisateur : ' pass
-echo "=============================="
-read -p 'Entrez le mail de cette utilisateur : ' mail
-echo "=============================="
-
-pufferpanel user add "--name ${user} --admin --email ${mail} --password ${pass}"
+pufferpanel user add --admin
 
 pufferpanel template import
 
@@ -100,4 +92,5 @@ systemctl start pufferpanel
 echo "============="
 echo "Pufferpanel installer a 100%"
 echo "Panel disponible sur http://IP:8080"
+echo "Pour crée un utilisateur veuillez faire pufferpanel user add --admin"
 echo "============="
